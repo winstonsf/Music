@@ -1,0 +1,13 @@
+<resources>
+    <!-- Title for the application -->
+    <string name="app_name">Music</string>
+
+    <!-- Title for Now Playing -->
+    <string name="nowPlaying">Now Playing</string>
+
+    <!-- Title for Albums -->
+    <string name="albums">Albums</string>
+
+    <!-- Title for Search -->
+    <string name="artist">Artist</string>
+</resources>
