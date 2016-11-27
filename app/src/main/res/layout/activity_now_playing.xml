@@ -9,19 +9,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.android.music.nowPlayingActivity">
+    tools:context="com.example.android.music.NowPlayingActivity">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="switchAlbum"
         android:text="Album"
         android:id="@+id/buttonAlbum" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="switchArtist"
         android:text="Artist"
         android:id="@+id/buttonArtist"
         android:layout_centerHorizontal="true" />
@@ -31,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:layout_marginLeft="16dp"
-        android:text="This activity shows the current song being played. Code would include a relative layout of the media player, album artwork, and link to song list."
+        android:text="@string/nowPlayingActivity"
         />
 
 </RelativeLayout>

@@ -1,8 +1,8 @@
 package com.example.android.music;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the Now Playing category is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link nowPlayingActivity}
-                Intent nowPlayingIntent = new Intent(MainActivity.this, nowPlayingActivity.class);
+                // Create a new intent to open the {@link NowPlayingActivity}
+                Intent nowPlayingIntent = new Intent(MainActivity.this, NowPlayingActivity.class);
 
                 // Start the new activity
                 startActivity(nowPlayingIntent);
@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the Albums category is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link albumsActivity}
-                Intent albumsIntent = new Intent(MainActivity.this, albumsActivity.class);
+                // Create a new intent to open the {@link AlbumsActivity}
+                Intent albumsIntent = new Intent(MainActivity.this, AlbumsActivity.class);
 
                 // Start the new activity
                 startActivity(albumsIntent);

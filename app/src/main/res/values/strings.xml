@@ -4,10 +4,14 @@
 
     <!-- Title for Now Playing -->
     <string name="nowPlaying">Now Playing</string>
+    <string name="nowPlayingActivity">This activity shows the current song being played. Code would include a relative layout of the media player, album artwork, and link to song list.</string>
 
     <!-- Title for Albums -->
     <string name="albums">Albums</string>
+    <string name="albumsActivity">This activity displays a view of the albums available to play. Code would include the album artwork in a vertical grid layout.</string>
 
     <!-- Title for Search -->
     <string name="artist">Artist</string>
+    <string name="artistActivity">This activity displays a view of the artists available to play. Code would include artist artwork in a vertical grid layout.</string>
+
 </resources>

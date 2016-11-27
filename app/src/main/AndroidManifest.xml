@@ -18,15 +18,15 @@
         </activity>
 
         <activity
-            android:name=".nowPlayingActivity"
+            android:name=".NowPlayingActivity"
             android:label="@string/nowPlaying" />
 
         <activity
-            android:name=".albumsActivity"
+            android:name=".AlbumsActivity"
             android:label="@string/albums" />
 
         <activity
-            android:name=".artistActivity"
+            android:name=".ArtistActivity"
             android:label="@string/artist" />
 
     </application>

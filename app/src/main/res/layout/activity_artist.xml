@@ -9,19 +9,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.android.music.artistActivity">
+    tools:context="com.example.android.music.ArtistActivity">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="switchNowPlaying"
         android:text="Now Playing"
         android:id="@+id/buttonNowPlaying" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="switchAlbum"
         android:text="Album"
         android:id="@+id/buttonAlbum"
         android:layout_centerHorizontal="true" />
@@ -31,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:layout_marginLeft="16dp"
-        android:text="This activity displays a view of the artists available to play. Code would include artist artwork in a vertical grid layout."
+        android:text="@string/artistActivity"
         />
 
 </RelativeLayout>
